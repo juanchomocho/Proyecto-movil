@@ -33,4 +33,11 @@ public class Teclado {
         tecla = new Tecla("y");
         tecla = new Tecla("z");
     }
+    
+    /**
+     * Cambia el idioma
+     */
+    public void cambiarIdioma(String alfabetoCambiado){
+        alfabeto = alfabetoCambiado;
+    }
 }
