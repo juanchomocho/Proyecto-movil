@@ -6,4 +6,13 @@ class Tecla {
         caracter = selectedKey;
         presionada = false;
     }
+    
+    public void presionar(){
+        presionada = true;
+    }
+    
+    public void cambiarCaracter(String changeSelectedKey){
+        caracter = changeSelectedKey;
+        presionada = false;
+    }
 }
