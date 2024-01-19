@@ -18,4 +18,9 @@ public class Movil {
             System.out.println("Numero cambiado correctamente");
         }
     }
+    
+    public void llamar(String introducirNumero){
+        String numeroDestino = introducirNumero;
+        System.out.println("LLamada realizada al numero: " + numeroDestino);
+    }
 }
