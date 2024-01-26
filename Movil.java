@@ -23,4 +23,19 @@ public class Movil {
         String numeroDestino = introducirNumero;
         System.out.println("LLamada realizada al numero: " + numeroDestino);
     }
+    
+    public void getDetails() {
+        String cambio = "";
+        if (encendido) {
+            cambio = "encendido";
+        }
+        else {
+            cambio = "apagado";
+        }
+        System.out.println("El movil está: " + cambio + " |El número de telefono es: " + numeroDeTelefono);
+    }
+    
+    public void anadirTeclado() {
+        
+    }
 }

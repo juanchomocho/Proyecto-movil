@@ -40,4 +40,8 @@ public class Teclado {
     public void cambiarIdioma(String alfabetoCambiado){
         alfabeto = alfabetoCambiado;
     }
+    
+    public void getDetails() {
+        System.out.println("El movil está en: " + alfabeto + " |El teclado tiene: " + numeroDeTeclas + " teclas");
+    }
 }
