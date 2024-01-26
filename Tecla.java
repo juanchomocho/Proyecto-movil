@@ -15,4 +15,5 @@ class Tecla {
         caracter = changeSelectedKey;
         presionada = false;
     }
+    
 }
