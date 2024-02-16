@@ -16,4 +16,15 @@ class Tecla {
         presionada = false;
     }
     
+
+    public void getDetails() {
+        String cambio = "";
+        if (presionada) {
+            cambio = "presionada";
+        }
+        else {
+            cambio = "no presionada";
+        }
+        System.out.println("La tecla está: " + cambio + " |Tiene el caracter: " + caracter);
+    }
 }
